@@ -4,37 +4,37 @@ A comprehensive restaurant management system that puts you in control of every t
 
 ## Features
 
-### 🏪 Restaurant Management
+### Restaurant Management
 - Multi-location restaurant oversight
 - Real-time performance analytics
 - Revenue tracking and reporting
 - Restaurant status monitoring
 
-### 👥 Staff Management
+### Staff Management
 - Employee scheduling and shift management
 - Staff performance tracking
 - Role-based access control
 - Team communication tools
 
-### 📋 Order Management
+### Order Management
 - Real-time order tracking
 - Kitchen display integration
 - Order history and analytics
 - Customer order preferences
 
-### ⭐ Review Management
+### Review Management
 - Customer feedback monitoring
 - Review response management
 - Rating analytics and trends
 - Reputation management tools
 
-### 📅 Reservation System
+### Reservation System
 - Table booking management
 - Capacity planning
 - Customer preference tracking
 - Automated confirmation system
 
-### 📍 Location Management
+### Location Management
 - Multi-location oversight
 - Location-specific analytics
 - Regional performance comparison
@@ -134,10 +134,6 @@ TableMaster is built with a mobile-first approach and is fully responsive across
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
