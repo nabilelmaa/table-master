@@ -117,7 +117,7 @@ export function RestaurantLayout({ children }: RestaurantLayoutProps) {
           className={`
             w-72 border-r border-white/10 min-h-screen flex flex-col transition-transform duration-300 z-50
             ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}
-            lg:translate-x-0 lg:relative lg:z-auto
+            lg:translate-x-0 lg:z-auto
             fixed lg:static
           `}
           style={{ background: "#101011" }}
