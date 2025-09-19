@@ -30,3 +30,15 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+  deploy:
+    needs: test # runs only if tests pass
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
+      - run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
